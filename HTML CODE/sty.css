@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #ffd;
+    height: 100%;
+    width: 100%;
+}
+main{
+  background-image: url(circles-background-dark-tones_60389-166.avif);
+  background-size: cover;
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    height: 55px;
+    margin-top: -20px;
+    position: relative;
+    color: aliceblue;
+}
+nav ul{
+    left: 10px;
+    position:absolute;
+    justify-content: space-between;
+    top: 20%;
+}
+a{
+  color: white;
+}
+nav li{
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+}
+ nav a{
+    text-decoration: underline;
+ }
+ .myimage img{
+   height: 400px;
+   width: 400px;
+   border-radius: 50%;
+   background-size: cover;
+   position: relative;
+   top: 50px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+ }
+ #myself{
+   position: absolute;
+   right: 25%;
+   top: 77%;
+   color: black;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+   align-content: center;
+ }
+ footer{
+   position:absolute;
+   bottom: 0px;
+   top: 105%;
+   background-color: #333;
+   color: white;
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   align-items: center;
+ }
+ footer a{
+   color: white;
+   top: 200px
+ }
+ footer img{
+   position: relative;
+   top: 06px;
+   right: 10px;
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   border: 1px solid blue;
+ }
+
+ @media (max-width:1000px) {
+    body{
+        background-color: white;
+    }
+ }
