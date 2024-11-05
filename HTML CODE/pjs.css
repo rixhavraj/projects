@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    background-image: url(dark-blue-memphis-blog-banner-template_53876-98946.avif);
+}
+header{
+    background-image: url(dark-blue-memphis-blog-banner-template_53876-98946.avif);
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px;
+}
+nav a{
+    color: white;
+}
+nav li{
+    list-style-type: none;
+    display: flex;
+    margin-left: 77px;
+    margin-top: 29px;
+}
+nav ul{display: flex;
+    margin-top: 0px;
+}
+main{
+    display: flex;
+    background-image: url(dark-blue-memphis-blog-banner-template_53876-98946.avif);
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+}
+.project1 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(230, 225, 225, 0.9);
+    transition-duration: 2s;
+}
+.project1{
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: 90px;
+    margin-bottom: 99px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(9,9,9,0.9);
+    color: white;
+    height: 500px;
+    
+}
+.project1 img:hover{
+    box-shadow: 0 0 10px rgba(1,1,1,0.9);
+}
+.project3 img:hover{
+    box-shadow: 0 0 10px rgba(1,1,1,0.9);
+}
+.project2:hover img:hover{
+    box-shadow: 0 0 10px rgba(1,1,1,0.9);
+}
+.project1:hover{
+    border: 2px solid white;
+}
+.project2:hover{
+    border: 2px solid white;
+}
+.project3:hover{
+    font-size: 110%;
+}
+h2{
+    margin-left: 10px;
+}
+p:hover{
+    text-decoration: underline;
+}
+.project2 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(230, 225, 225, 0.9);
+    transition-duration: 2s;
+}
+.project2{
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: 90px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(9,9 ,9,0.9);
+    color: white;
+    height: 500px;
+}
+
+h2{
+    margin-left: 10px;
+}
+p{
+    height: 50px;
+    width: 500px;
+    margin-left: 10px;
+}
+
+.project2:hover{
+    border: 2px solid white;
+}
+.project3 img:hover{
+    border: 2px solid white;
+}
+
+.project3{
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: 90px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(9,9 ,9,);
+    color: white;
+    height: 500px;
+    transition-duration:1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.project3 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    transition-duration: 3.2s;
+}
+#po{
+    margin-top: -165px;
+    margin-left: 50px;
+}
+div{
+    justify-content: space-between;
+}
+h2{
+    margin-left: 100px;
+}
+footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 0 10px black ;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.project4 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(230, 225, 225, 0.9);
+    transition-duration: 2s;
+}
+.project4{
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: 10px;
+    margin-bottom: 99px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(9,9,9,0.9);
+    color: white;
+    height: 500px;
+    
+}
+.project4 img:hover{
+    box-shadow: 0 0 10px rgba(1,1,1,0.9);
+}
+.project4:hover{
+    border: 2px solid white;
+}
+.project5 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(230, 225, 225, 0.9);
+    transition-duration: 2s;
+}
+.project5{
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(9,9 ,9,0.9);
+    color: white;
+    height: 500px;
+    
+}
+.project5 img:hover{
+    box-shadow: 0 0 10px rgba(1,1,1,0.9);
+}
+.project5:hover{
+    border: 2px solid white;
+}
+#cont1{
+    display: flex;
+    justify-content: center;
+}
